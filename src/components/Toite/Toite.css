@@ -1,0 +1,55 @@
+.toite {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  font-family: "Trebuchet MS", sans-serif;
+
+  position: relative;
+}
+
+.toite .autorToite {
+  display: flex;
+  align-items: center;
+}
+
+.toite .autorToite img {
+  margin-right: 8px;
+}
+
+.toite:not(:last-child) {
+  border-bottom: solid #43a047 1px; /*green[600]*/
+}
+
+.toite span {
+  font-weight: 700;
+}
+
+.toite p {
+  word-wrap: break-word;
+  margin: 8px 8px 8px 28px;
+}
+
+.toite button {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  background-color: #ef5350;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 9px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toite button:hover {
+  background-color: #e53935;
+}

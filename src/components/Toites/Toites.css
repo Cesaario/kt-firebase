@@ -1,0 +1,7 @@
+.toites {
+  width: 30rem;
+  background-color: #fafafa;
+  border: solid #43a047 1px; /*green[600]*/
+  border-radius: 8px;
+  margin-top: 16px;
+}

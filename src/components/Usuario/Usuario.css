@@ -1,0 +1,14 @@
+.usuario {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.usuario span {
+  margin-top: 8px;
+  font-weight: bold;
+}
